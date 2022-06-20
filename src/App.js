@@ -19,13 +19,19 @@ const App = () => {
                   background: "blue",
                   borderRadius: "50%"
                 }}
-                className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
+                className="text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-white"
               >
                 <FiSettings />
               </button>
             </TooltipComponent>
           </div>
-          {activeMenu ? <div>Sidebar</div> : <div>Sidebar w-0 </div>}
+          {activeMenu ? (
+            <div className="w-72 fixed sidebar dark: bg-secondary-dark-bg bg-white">
+              Sidebar
+            </div>
+          ) : (
+            <div className="w-0 dark: bg-secondary-dark-bg">Sidebar</div>
+          )}
         </div>
       </BrowserRouter>
     </div>
