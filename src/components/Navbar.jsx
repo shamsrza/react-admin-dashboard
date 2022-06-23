@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-import { FiShoppingCart } from "react-icons/fi";
-import { BsChatLeft } from "react-icons/bs";
-import { RiNotiication3Line } from "react-icons/ri";
-import { MdKeyboardArrowDown } from "react-icons/md";
+// import { FiShoppingCart } from "react-icons/fi";
+// import { BsChatLeft } from "react-icons/bs";
+// import { RiNotiication3Line } from "react-icons/ri";
+// import { MdKeyboardArrowDown } from "react-icons/md";
 
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import avatar from "../data/avatar.jpg";
@@ -11,7 +11,7 @@ import { Cart, Chat, Notification, userProfile } from ".";
 import { useStateContext } from "../contexts/ContextProvider";
 
 // NavButton component
-const NavButton = ({ title, customFunc, icon, color, dotColor }) => {
+const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
   <TooltipComponent content={title} position="BottomCenter">
     <button
       type="button"
@@ -26,8 +26,8 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => {
         {icon}
       </span>
     </button>
-  </TooltipComponent>;
-};
+  </TooltipComponent>
+);
 const Navbar = () => {
   const { activeMenu, setActiveMenu } = useStateContext();
 
