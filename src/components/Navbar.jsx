@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
-// import { FiShoppingCart } from "react-icons/fi";
-// import { BsChatLeft } from "react-icons/bs";
-// import { RiNotiication3Line } from "react-icons/ri";
+import { FiShoppingCart } from "react-icons/fi";
+import { BsChatLeft } from "react-icons/bs";
+import { RiNotiication3Line } from "react-icons/ri";
 // import { MdKeyboardArrowDown } from "react-icons/md";
 
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
@@ -10,7 +10,7 @@ import avatar from "../data/avatar.jpg";
 import { Cart, Chat, Notification, userProfile } from ".";
 import { useStateContext } from "../contexts/ContextProvider";
 
-// NavButton component
+// NavButton - react arrow function component
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
   <TooltipComponent content={title} position="BottomCenter">
     <button
@@ -28,6 +28,7 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
     </button>
   </TooltipComponent>
 );
+
 const Navbar = () => {
   const { activeMenu, setActiveMenu } = useStateContext();
 
@@ -39,6 +40,31 @@ const Navbar = () => {
         color="blue"
         icon={<AiOutlineMenu />}
       />
+
+      <div className="flex">
+        <NavButton
+          title="Cart"
+          // customFunc={() => handleClick("cart")}
+          color="blue"
+          icon={<FiShoppingCart />}
+        />
+
+        <NavButton
+          title="Chat"
+          dotColor="#03C9D7"
+          // customFunc={() => handleClick("chat")}
+          color="blue"
+          icon={<BsChatLeft />}
+        />
+
+        <NavButton
+          title="Notifications"
+          dotColor="#03C9D7"
+          // customFunc={() => handleClick("notification")}
+          color="blue"
+          icon={<RiNotiication3Line />}
+        />
+      </div>
     </div>
   );
 };
