@@ -1,5 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  css: ["./src/tailwind.css"],
   darkMode: "class",
   theme: {
     fontFamily: {
