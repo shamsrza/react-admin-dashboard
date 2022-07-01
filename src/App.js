@@ -55,7 +55,7 @@ const App = () => {
             </div>
           )}
           <div
-            className={`dark:bg-main-bg bg-main-bg min-h-screen w-full ${
+            className={`bg-zinc-50 dark:bg-main-bg  min-h-screen w-full ${
               activeMenu ? "md:ml-72" : "flex-2"
             }`}
           >
