@@ -35,14 +35,17 @@ import avatar from "./avatar.jpg";
 import avatar2 from "./avatar2.jpg";
 import avatar3 from "./avatar3.png";
 import avatar4 from "./avatar4.jpg";
-import product1 from "./product1.jpg";
+// import product1 from "./product1.jpg";
 import product2 from "./product2.jpg";
 import product3 from "./product3.jpg";
 import product4 from "./product4.jpg";
-import product5 from "./product5.jpg";
-import product6 from "./product6.jpg";
-import product7 from "./product7.jpg";
+import product5 from "./product5.jpeg";
+import product6 from "./product6.jpeg";
+import product7 from "./product7.jpeg";
 // import product8 from "./product8.jpg";
+import product10 from "./product10.jpg";
+import product11 from "./product11.jpg";
+import product12 from "./product12.jpg";
 
 export const gridOrderImage = (props) => (
   <div>
@@ -2080,7 +2083,7 @@ export const ordersData = [
     Location: "Spain",
     Status: "rejected",
     StatusBg: "red",
-    ProductImage: product1
+    ProductImage: product10
   },
   {
     OrderID: 94757,
@@ -2090,7 +2093,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2
+    ProductImage: product11
   },
   {
     OrderID: 944895,
@@ -2100,7 +2103,7 @@ export const ordersData = [
     Location: "USA",
     Status: "active",
     StatusBg: "#03C9D7",
-    ProductImage: product3
+    ProductImage: product12
   },
   {
     OrderID: 845954,
@@ -2216,7 +2219,7 @@ export const ordersData = [
     Location: "Spain",
     Status: "rejected",
     StatusBg: "red",
-    ProductImage: product1
+    ProductImage: product10
   },
   {
     OrderID: 94757,
@@ -2226,7 +2229,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2
+    ProductImage: product11
   },
   {
     OrderID: 944895,
@@ -2236,7 +2239,7 @@ export const ordersData = [
     Location: "USA",
     Status: "active",
     StatusBg: "#03C9D7",
-    ProductImage: product3
+    ProductImage: product12
   },
   {
     OrderID: 845954,
@@ -2352,7 +2355,7 @@ export const ordersData = [
     Location: "Spain",
     Status: "rejected",
     StatusBg: "red",
-    ProductImage: product1
+    ProductImage: product10
   },
   {
     OrderID: 94757,
@@ -2362,7 +2365,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2
+    ProductImage: product11
   },
   {
     OrderID: 944895,
@@ -2372,7 +2375,7 @@ export const ordersData = [
     Location: "USA",
     Status: "active",
     StatusBg: "#03C9D7",
-    ProductImage: product3
+    ProductImage: product12
   },
   {
     OrderID: 845954,
@@ -2488,7 +2491,7 @@ export const ordersData = [
     Location: "Spain",
     Status: "rejected",
     StatusBg: "red",
-    ProductImage: product1
+    ProductImage: product10
   },
   {
     OrderID: 94757,
@@ -2498,7 +2501,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2
+    ProductImage: product11
   },
   {
     OrderID: 944895,
@@ -2508,7 +2511,7 @@ export const ordersData = [
     Location: "USA",
     Status: "active",
     StatusBg: "#03C9D7",
-    ProductImage: product3
+    ProductImage: product12
   },
   {
     OrderID: 845954,
@@ -2624,7 +2627,7 @@ export const ordersData = [
     Location: "Spain",
     Status: "rejected",
     StatusBg: "red",
-    ProductImage: product1
+    ProductImage: product10
   },
   {
     OrderID: 94757,
@@ -2634,7 +2637,7 @@ export const ordersData = [
     Location: "USA",
     Status: "canceled",
     StatusBg: "#FF5C8E",
-    ProductImage: product2
+    ProductImage: product11
   },
   {
     OrderID: 944895,
@@ -2644,7 +2647,7 @@ export const ordersData = [
     Location: "USA",
     Status: "active",
     StatusBg: "#03C9D7",
-    ProductImage: product3
+    ProductImage: product12
   },
   {
     OrderID: 845954,

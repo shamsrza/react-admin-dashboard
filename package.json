@@ -12,6 +12,7 @@
     "@syncfusion/ej2-popups": "19.4.52",
     "@syncfusion/ej2-react-calendars": "19.4.48",
     "@syncfusion/ej2-react-charts": "19.4.50",
+    "@syncfusion/ej2-react-grids": "19.4.55",
     "@syncfusion/ej2-react-kanban": "19.4.48",
     "@syncfusion/ej2-react-popups": "19.4.52",
     "@syncfusion/ej2-react-richtexteditor": "19.4.50",
@@ -39,5 +40,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
