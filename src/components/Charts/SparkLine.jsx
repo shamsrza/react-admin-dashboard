@@ -23,6 +23,7 @@ const SparkLine = ({ id, color, currentColor, height, width, data, type }) => {
           visible: true
         }
       }}
+      // markerSettings={{ visible: ["All"], size: 2.5, fill: currentColor }}
       dataSource={data}
       xName="x"
       yName="yval"
