@@ -45,6 +45,7 @@ import avatar10 from "./avatar10.jpg";
 import avatar11 from "./avatar11.jpg";
 import avatar12 from "./avatar12.jpg";
 import avatar13 from "./avatar13.jpg";
+import avatar14 from "./avatar14.jpg";
 // import product2 from "./product2.jpg";
 // import product3 from "./product3.jpg";
 import product4 from "./product4.jpg";
@@ -1508,7 +1509,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1526,7 +1527,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1571,7 +1572,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1589,7 +1590,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1634,7 +1635,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1652,7 +1653,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1697,7 +1698,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1715,7 +1716,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1760,7 +1761,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1778,7 +1779,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1823,7 +1824,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1841,7 +1842,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1886,7 +1887,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1904,7 +1905,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -1949,7 +1950,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -1967,7 +1968,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
@@ -2012,7 +2013,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar14
   },
   {
     EmployeeID: 5,
@@ -2030,7 +2031,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar7
   },
   {
     EmployeeID: 5,
