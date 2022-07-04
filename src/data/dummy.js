@@ -32,12 +32,21 @@ import { TiTick } from "react-icons/ti";
 import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
 import avatar from "./avatar.jpg";
-import avatar2 from "./avatar2.jpg";
+import avatar1 from "./avatar1.jpeg";
+import avatar2 from "./avatar2.jpeg";
 import avatar3 from "./avatar3.png";
-import avatar4 from "./avatar4.jpg";
-// import product1 from "./product1.jpg";
-import product2 from "./product2.jpg";
-import product3 from "./product3.jpg";
+import avatar4 from "./avatar4.jpeg";
+import avatar5 from "./avatar5.jpg";
+import avatar6 from "./avatar6.jpg";
+import avatar7 from "./avatar7.jpg";
+import avatar8 from "./avatar8.jpg";
+import avatar9 from "./avatar9.jpg";
+import avatar10 from "./avatar10.jpg";
+import avatar11 from "./avatar11.jpg";
+import avatar12 from "./avatar12.jpg";
+import avatar13 from "./avatar13.jpg";
+// import product2 from "./product2.jpg";
+// import product3 from "./product3.jpg";
 import product4 from "./product4.jpg";
 import product5 from "./product5.jpeg";
 import product6 from "./product6.jpeg";
@@ -46,6 +55,7 @@ import product7 from "./product7.jpeg";
 import product10 from "./product10.jpg";
 import product11 from "./product11.jpg";
 import product12 from "./product12.jpg";
+import product13 from "./product13.jpg";
 
 export const gridOrderImage = (props) => (
   <div>
@@ -836,7 +846,7 @@ export const medicalproBranding = {
       image: avatar4
     },
     {
-      image: avatar
+      image: avatar1
     }
   ]
 };
@@ -989,7 +999,7 @@ export const customersData = [
     CustomerEmail: "jamil@gmail.com",
     ProjectName: "MedicalPro WP Theme",
     Status: "Completed",
-    CustomerImage: avatar,
+    CustomerImage: avatar1,
     StatusBg: "#8BE78B",
     Weeks: "34",
     Budget: "$16.5k",
@@ -1054,7 +1064,7 @@ export const customersData = [
     CustomerEmail: "jamil@gmail.com",
     ProjectName: "MedicalPro WP Theme",
     Status: "Completed",
-    CustomerImage: avatar,
+    CustomerImage: avatar1,
     StatusBg: "#8BE78B",
     Weeks: "34",
     Budget: "$16.5k",
@@ -1471,7 +1481,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar3
+    EmployeeImage: avatar10
   },
   {
     EmployeeID: 2,
@@ -1507,7 +1517,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1529,10 +1539,10 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Eliza Góra",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
-    Country: "USA",
+    Country: "Poland",
     ReportsTo: "Carson",
     EmployeeImage: avatar2
   },
@@ -1570,7 +1580,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1592,12 +1602,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Petr Hladik",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
-    Country: "USA",
+    Country: "Russia",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar8
   },
   {
     EmployeeID: 2,
@@ -1633,7 +1643,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1655,12 +1665,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Ulaş Barışık",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
-    Country: "USA",
+    Country: "Turkey",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar11
   },
   {
     EmployeeID: 2,
@@ -1696,7 +1706,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1718,12 +1728,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Naseem Hassan",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
-    Country: "USA",
+    Country: "India",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar12
   },
   {
     EmployeeID: 2,
@@ -1759,7 +1769,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1781,12 +1791,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Samantha Gerardy",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar9
   },
   {
     EmployeeID: 2,
@@ -1822,7 +1832,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1844,12 +1854,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Chloé Delaye",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar6
   },
   {
     EmployeeID: 2,
@@ -1885,7 +1895,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1907,12 +1917,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Breno Diniz Olintho",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
-    Country: "USA",
+    Country: "Brazil",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar5
   },
   {
     EmployeeID: 2,
@@ -1948,7 +1958,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -1970,12 +1980,12 @@ export const employeesData = [
   },
   {
     EmployeeID: 1,
-    Name: "Nancy Davolio",
+    Name: "Flavio Tanaka",
     Title: "Sales Representative",
     HireDate: "01/02/2021",
-    Country: "USA",
+    Country: "Spain",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar13
   },
   {
     EmployeeID: 2,
@@ -2011,7 +2021,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar
+    EmployeeImage: avatar1
   },
   {
     EmployeeID: 4,
@@ -2113,7 +2123,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4
+    ProductImage: product13
   },
   {
     OrderID: 845954,
@@ -2249,7 +2259,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4
+    ProductImage: product13
   },
   {
     OrderID: 845954,
@@ -2385,7 +2395,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4
+    ProductImage: product13
   },
   {
     OrderID: 845954,
@@ -2521,7 +2531,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4
+    ProductImage: product13
   },
   {
     OrderID: 845954,
@@ -2657,7 +2667,7 @@ export const ordersData = [
     Location: "USA",
     Status: "complete",
     StatusBg: "#8BE78B",
-    ProductImage: product4
+    ProductImage: product13
   },
   {
     OrderID: 845954,

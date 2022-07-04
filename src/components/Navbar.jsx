@@ -6,7 +6,7 @@ import { RiNotification3Line } from "react-icons/ri";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
-import avatar1 from "../data/avatar1.jpg";
+import avatar from "../data/avatar.jpg";
 import { Cart, Chat, Notification, userProfile } from ".";
 import { useStateContext } from "../contexts/ContextProvider";
 import UserProfile from "./UserProfile";
@@ -98,11 +98,7 @@ const Navbar = () => {
             className=" flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
             onClick={() => handleClick("userProfile")}
           >
-            <img
-              src="https://rawcdn.githack.com/shamsrza/react-admin-dashboard/18d490fdc0eba0e472b6b81c43192774670e70c9/src/data/avatar1.jpg"
-              className="rounded-full w-8 h-8"
-              alt="avatar"
-            />
+            <img src={avatar} className="rounded-full w-8 h-8" alt="avatar" />
             <p>
               <span className="text-gray-400 text-14">Hi, </span>{" "}
               <span className="text-gray-400 font-bold ml-1 text-14">
