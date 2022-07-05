@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   AiOutlineCalendar,
   AiOutlineShoppingCart,
@@ -6,6 +7,7 @@ import {
   AiOutlineBarChart,
   AiOutlineStock
 } from "react-icons/ai";
+
 import {
   FiShoppingBag,
   FiEdit,
@@ -31,6 +33,7 @@ import { HiOutlineRefresh } from "react-icons/hi";
 import { TiTick } from "react-icons/ti";
 import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
+import { SiPlatformdotsh } from "react-icons/si";
 import avatar from "./avatar.jpg";
 import avatar1 from "./avatar1.jpeg";
 import avatar2 from "./avatar2.jpeg";
@@ -80,7 +83,12 @@ export const gridOrderStatus = (props) => (
 );
 
 export const kanbanGrid = [
-  { headerText: "To Do", keyField: "Open", allowToggle: true },
+  {
+    icon: <SiPlatformdotsh />,
+    headerText: "To Do",
+    keyField: "Open",
+    allowToggle: true
+  },
 
   { headerText: "In Progress", keyField: "InProgress", allowToggle: true },
 
@@ -93,6 +101,7 @@ export const kanbanGrid = [
 
   { headerText: "Done", keyField: "Close", allowToggle: true }
 ];
+
 const gridEmployeeProfile = (props) => (
   <div className="flex items-center gap-2">
     <img
