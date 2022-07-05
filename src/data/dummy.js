@@ -34,7 +34,7 @@ import { GrLocation } from "react-icons/gr";
 import avatar from "./avatar.jpg";
 import avatar1 from "./avatar1.jpeg";
 import avatar2 from "./avatar2.jpeg";
-import avatar3 from "./avatar3.png";
+import avatar3 from "./avatar3.jpg";
 import avatar4 from "./avatar4.jpeg";
 import avatar5 from "./avatar5.jpg";
 import avatar6 from "./avatar6.jpg";
@@ -46,6 +46,7 @@ import avatar11 from "./avatar11.jpg";
 import avatar12 from "./avatar12.jpg";
 import avatar13 from "./avatar13.jpg";
 import avatar14 from "./avatar14.jpg";
+import avatar15 from "./avatar15.jpg";
 // import product2 from "./product2.jpg";
 // import product3 from "./product3.jpg";
 import product4 from "./product4.jpg";
@@ -1536,7 +1537,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1599,7 +1600,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1662,7 +1663,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1725,7 +1726,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1788,7 +1789,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1851,7 +1852,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1914,7 +1915,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -1977,7 +1978,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   },
   {
     EmployeeID: 1,
@@ -2040,7 +2041,7 @@ export const employeesData = [
     HireDate: "01/02/2021",
     Country: "USA",
     ReportsTo: "Carson",
-    EmployeeImage: avatar2
+    EmployeeImage: avatar15
   }
 ];
 
