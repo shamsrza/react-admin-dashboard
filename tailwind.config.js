@@ -1,6 +1,5 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  css: ["./src/tailwind.css"],
   darkMode: "class",
   theme: {
     fontFamily: {
@@ -41,7 +40,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern":
-          "url('https://demos.wrappixel.com/premium-admin-templates/react/flexy-react/main/static/media/welcome-bg-2x-svg.25338f53.svg')"
+          "url('https://cdn.dribbble.com/users/634508/screenshots/2172083/media/1cc2d961f9b95d233963a7868214ca93.gif')"
       }
     }
   },

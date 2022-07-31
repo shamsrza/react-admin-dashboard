@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import "./styles/tailwind.css";
 import { ContextProvider } from "./contexts/ContextProvider";
 import App from "./App";
 

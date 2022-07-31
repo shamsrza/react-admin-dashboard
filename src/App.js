@@ -8,7 +8,6 @@ import {
   Orders,
   Calendar,
   Employees,
-  Stacked,
   Pyramid,
   Customers,
   Kanban,
@@ -62,7 +61,7 @@ const App = () => {
             </div>
           )}
           <div
-            className={`bg-zinc-50 dark:bg-main-bg  min-h-screen w-full ${
+            className={`dark:bg-main-dark-bg  bg-main-bg min-h-screen w-full ${
               activeMenu ? "md:ml-72" : "flex-2"
             }`}
           >
@@ -96,9 +95,10 @@ const App = () => {
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/color-mapping" element={<ColorMapping />} />
                 <Route path="/pyramid" element={<Pyramid />} />
-                <Route path="/stacked" element={<Stacked />} />
+                {/* <Route path="/stacked" element={<Stacked />} /> */}
               </Routes>
             </div>
+            <Footer />
           </div>
         </div>
       </BrowserRouter>

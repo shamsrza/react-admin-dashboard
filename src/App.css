@@ -53,3 +53,13 @@
 .e-input-group.e-control-wrapper.e-error:not(.e-float-icon-left) {
   border: none;
 }
+
+/* .bgcolor td {
+  background-color:'#33373E' !important;
+  color: white !important;
+} */
+
+.dark-mode {
+  background-color: "#33373E" !important;
+  color: white !important;
+}
