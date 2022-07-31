@@ -16,7 +16,7 @@ const Sidebar = () => {
   } = useStateContext();
 
   const handleCloseSideBar = () => {
-    if (activeMenu && screenSize <= 900) {
+    if (activeMenu !== undefined && screenSize <= 900) {
       setActiveMenu(false);
     }
   };
@@ -34,7 +34,7 @@ const Sidebar = () => {
               onClick={handleCloseSideBar}
               className="items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
             >
-              <SiPrestashop /> <span>ShopDash</span>
+              <SiPrestashop /> <span>eComDash</span>
             </Link>
             <TooltipComponent content="menu" position="BottomCenter">
               <button

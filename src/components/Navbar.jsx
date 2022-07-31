@@ -78,7 +78,7 @@ const Navbar = () => {
         />
 
         <NavButton
-          title="Chat"
+          title="Messages"
           dotColor="#03C9D7"
           customFunc={() => handleClick("chat")}
           color={currentColor}
@@ -102,6 +102,7 @@ const Navbar = () => {
               className="rounded-full w-8 h-8"
               src={avatar}
               alt="user-profile"
+              style={{ border: `1px solid ${currentColor}` }}
             />
             <p>
               <span className="text-gray-400 text-14">Hi, </span>{" "}

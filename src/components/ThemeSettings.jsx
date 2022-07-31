@@ -15,22 +15,22 @@ const ThemeSettings = () => {
     setThemeSettings
   } = useStateContext();
   return (
-    <div className="bg-gradient-to-r from-blue-400 w-screen fixed nav-item top-0 right-0">
-      <div className="float-right h-screen dark:text-gray-200  bg-white dark:bg-[#484B52] w-1/5">
+    <div className="bg-half-transparent w-screen fixed nav-item top-0 right-0">
+      <div className="float-right h-screen dark:text-gray-200  bg-white dark:bg-[#484B52] w-400">
         <div className="flex justify-between items-center p-4 ml-4">
-          <p className="font-semibold text-xl">Settings</p>
+          <p className="font-semibold text-lg">Settings</p>
           <button
             type="button"
             onClick={() => setThemeSettings(false)}
             style={{ color: "rgb(153, 171,180)", borderRadius: "50%" }}
-            className="text-2xl p-3 hover:drop-shadow-xl hover:bg-gradient-to-r from-blue-300"
+            className="text-2xl p-3 hover:drop-shadow-xl hover:bg-light-gray"
           >
             <MdOutlineCancel />
           </button>
         </div>
 
         <div className="flex-col border-t-1 border-color p-4 ml-4">
-          <p className="font-semibold text-lg">Theme Options</p>
+          <p className="font-semibold text-xl">Theme Options</p>
           <div className="mt-4">
             <input
               type="radio"
@@ -71,7 +71,7 @@ const ThemeSettings = () => {
                 content={item.name}
                 position="TopCenter"
               >
-                <div className="relative mt-2 cursor-pointer lex- gap-5 items-center">
+                <div className="relative mt-2 cursor-pointer flex- gap-5 items-center">
                   <button
                     type="button"
                     className="h-10 w-10 rounded-full cursor-pointer"
