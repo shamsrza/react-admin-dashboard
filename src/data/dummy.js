@@ -34,7 +34,7 @@ import { TiTick } from "react-icons/ti";
 import { GiLouvrePyramid } from "react-icons/gi";
 import { GrLocation } from "react-icons/gr";
 import { SiPlatformdotsh } from "react-icons/si";
-import avatar from "./avatar.jpg";
+import avatar from "./avatar.jpeg";
 import avatar1 from "./avatar1.jpeg";
 import avatar2 from "./avatar2.jpeg";
 import avatar3 from "./avatar3.jpg";
@@ -50,17 +50,18 @@ import avatar12 from "./avatar12.jpg";
 import avatar13 from "./avatar13.jpg";
 import avatar14 from "./avatar14.jpg";
 import avatar15 from "./avatar15.jpg";
-// import product2 from "./product2.jpg";
-// import product3 from "./product3.jpg";
+import product2 from "./product2.jpg";
+import product3 from "./product3.jpg";
 import product4 from "./product4.jpg";
 import product5 from "./product5.jpeg";
 import product6 from "./product6.jpeg";
 import product7 from "./product7.jpeg";
-// import product8 from "./product8.jpg";
+import product8 from "./product8.jpg";
 import product10 from "./product10.jpg";
 import product11 from "./product11.jpg";
 import product12 from "./product12.jpg";
 import product13 from "./product13.jpg";
+import { useStateContext } from "../contexts/ContextProvider";
 
 export const gridOrderImage = (props) => (
   <div>
@@ -364,7 +365,8 @@ export const rangeColorMapping = [
 export const ColorMappingPrimaryXAxis = {
   valueType: "Category",
   majorGridLines: { width: 0 },
-  title: "Months"
+  // title: "Months",
+  labelStyle: { color: "#8c8c8c", size: 13 }
 };
 
 export const ColorMappingPrimaryYAxis = {
@@ -372,7 +374,9 @@ export const ColorMappingPrimaryYAxis = {
   majorTickLines: { width: 0 },
   minorTickLines: { width: 0 },
   labelFormat: "{value}°C",
-  title: "Temperature"
+  // title: "Temperature",
+  // titleStyle: { color: "#8c8c8c"},
+  labelStyle: { color: "#8c8c8c", size: 13 }
 };
 
 export const FinancialPrimaryXAxis = {
@@ -380,16 +384,19 @@ export const FinancialPrimaryXAxis = {
   minimum: new Date("2016, 12, 31"),
   maximum: new Date("2017, 9, 30"),
   crosshairTooltip: { enable: true },
-  majorGridLines: { width: 0 }
+  majorGridLines: { width: 0 },
+  labelStyle: { color: "#8c8c8c", size: 13 }
 };
 
 export const FinancialPrimaryYAxis = {
-  title: "Price",
+  title: "Price in billions (USD)",
+  titleStyle: { color: "#8c8c8c"},
   minimum: 100,
   maximum: 180,
   interval: 20,
   lineStyle: { width: 0 },
-  majorTickLines: { width: 0 }
+  majorTickLines: { width: 0 },
+  labelStyle: { color: "#8c8c8c", size: 13 }
 };
 
 export const LinePrimaryXAxis = {
@@ -397,6 +404,7 @@ export const LinePrimaryXAxis = {
   labelFormat: "y",
   intervalType: "Years",
   edgeLabelPlacement: "Shift",
+  labelStyle: { color: "gray", fontWeight: 600, size: 14},
   majorGridLines: { width: 0 },
   background: "white"
 };
@@ -409,8 +417,12 @@ export const LinePrimaryYAxis = {
   interval: 20,
   lineStyle: { width: 0 },
   majorTickLines: { width: 0 },
-  minorTickLines: { width: 0 }
+  minorTickLines: { width: 0 },
+  labelStyle: { color: "gray", fontWeight: 600, size: 14},
 };
+export const Palette = ["#E94649", "#F6B53F", "#06c726", "#C4C24A"];
+
+export const piePalette = ["#E94649", "#F6B53F", "#06c726", "#C4C24A", "#1597ff" , "#e803fc", "#3b4ceb"];
 
 export const customersGrid = [
   { type: "checkbox", width: "50" },
@@ -588,10 +600,6 @@ export const links = [
       {
         name: "pyramid",
         icon: <GiLouvrePyramid />
-      },
-      {
-        name: "stacked",
-        icon: <AiOutlineBarChart />
       }
     ]
   }
@@ -599,9 +607,9 @@ export const links = [
 
 export const cartData = [
   {
-    image: product5,
-    name: "butterscotch ice-cream",
-    category: "Milk product",
+    image: product10,
+    name: "Tumeric & Ginger",
+    category: "Dietary supplement",
     price: "$250"
   },
   {
@@ -612,7 +620,7 @@ export const cartData = [
   },
   {
     image: product7,
-    name: "Red color candy",
+    name: "Vanilla ice cream",
     category: "Food Item",
     price: "$190"
   }
@@ -621,7 +629,7 @@ export const cartData = [
 export const chatData = [
   {
     image: avatar2,
-    message: "Roman Joined the Team!",
+    message: "Weronika joined the team!",
     desc: "Congratulate him",
     time: "9:08 AM"
   },
@@ -638,7 +646,7 @@ export const chatData = [
     time: "4:39 AM"
   },
   {
-    image: avatar,
+    image: avatar14,
     message: "Jolly completed tasks",
     desc: "Assign her new tasks",
     time: "1:12 AM"
@@ -798,11 +806,11 @@ export const productsPerformance = [
   }
 ];
 
-export const medicalproBranding = {
+export const medicalProBranding = {
   data: [
     {
       title: "Due Date",
-      desc: "Oct 23, 2021"
+      desc: "Oct 23, 2022"
     },
     {
       title: "Budget",
@@ -811,7 +819,11 @@ export const medicalproBranding = {
     {
       title: "Expense",
       desc: "$63,000"
-    }
+    },
+    // {
+    //   title: "Taxes",
+    //   desc: "17%"
+    // }
   ],
   teams: [
     {
@@ -831,7 +843,7 @@ export const medicalproBranding = {
       image: avatar3
     },
     {
-      image: avatar2
+      image: avatar7
     },
     {
       image: avatar4
@@ -2957,11 +2969,11 @@ export const dropdownData = [
   }
 ];
 export const SparklineAreaData = [
-  { x: 1, y: 2 },
-  { x: 2, y: 6 },
-  { x: 3, y: 8 },
-  { x: 4, y: 5 },
-  { x: 5, y: 10 }
+  { x: 1, yval: 2 },
+  { x: 2, yval: 6 },
+  { x: 3, yval: 8 },
+  { x: 4, yval: 5 },
+  { x: 5, yval: 10 }
 ];
 
 export const lineCustomSeries = [
@@ -3060,7 +3072,7 @@ export const stackedCustomSeries = [
     yName: "y",
     name: "Budget",
     type: "StackingColumn",
-    background: "blue"
+    legend: {color: "gray"}
   },
 
   {
@@ -3068,8 +3080,7 @@ export const stackedCustomSeries = [
     xName: "x",
     yName: "y",
     name: "Expense",
-    type: "StackingColumn",
-    background: "red"
+    type: "StackingColumn"
   }
 ];
 
@@ -3456,7 +3467,7 @@ export const financialChartData = [
     high: 90.6657,
     low: 85.7685,
     close: 90.5257,
-    volume: 660187068
+    volume: 660187068,
   },
   {
     x: new Date("2012-04-09"),
