@@ -1,4 +1,3 @@
 # react-admin-dashboard
-Tailwind
-Synchfusion
+eComDash is React Admin Dashboard. Used stack: Tailwind, Syncfusion
 
