@@ -1,2 +1,4 @@
 # react-admin-dashboard
-Created with CodeSandbox
+Tailwind
+Synchfusion
+
